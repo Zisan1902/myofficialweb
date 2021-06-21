@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to make an app without coding ?</title>
+    <meta name="viewport" content="desktop-size">
+    <link rel="shortcut icon" type="image/png" href="assets/logo.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding: 0 20px;
+    margin-top: 4px;
+    margin-left: 10%;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin: 0 15px;
+    transition: all .3s ease 0s;
+    color: rgb(241, 11, 99);
+}
+
+.nav-links li a:hover {
+    color: rgb(20, 211, 170);
+}
+
+.logoandtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.developer {
+    font-weight: bold;
+    color: rgb(112, 4, 58);
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    
+}
+
+.zisan {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(154, 1, 255);
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.paragraph {
+   margin: 2%;
+   padding: 30px;
+   font-size: 20px;
+   text-align: justify;
+}
+
+.paragraph2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.main-1 {
+    display: flex;
+    margin: 50px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.main-1 .html, .css, .js, .php {
+    background-color: whitesmoke;
+    border-radius: 45px;
+    padding: 20px;
+    width: 20%;
+}
+
+.main-2 {
+    display: flex;
+    margin: 50px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.main-2 .python, .cc, .c {
+    background-color: whitesmoke;
+    border-radius: 45px;
+    padding: 20px;
+    width: 20%;
+}
+
+.paragraph2 p {
+    margin-bottom: 18px;
+}
+
+.paragraph2 button {
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    background-color: white solid;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: .3s ease 0s;
+    cursor: pointer;
+}
+
+.paragraph2 button:hover {
+    color: white;
+    background-color: black;
+}
+
+.copyright {
+    background-color: rgb(36, 34, 34);
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.copyright footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright footer {
+    padding-top: 50px;
+}
+
+.introduce h1 {
+    text-align: center;
+}
+
+.introduce p {
+    text-align: justify;
+    margin: 2%;
+}
+
+.introduce .first {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(243, 18, 149);
+}
+
+.introduce {
+    font-size: 20px;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.img {
+    margin: 2% 11% 5% 11%;
+}
+
+.introduce .kodularweb {
+    text-align: center;
+    font-weight: bold;
+}
+
+.introduce .kodularweb a {
+    text-decoration: none;
+    color: rgb(20, 69, 160);
+    transition: .3s ease 0s;
+}
+
+.introduce .kodularweb a:hover {
+    color: cornflowerblue;
+}
+
+.introduce h3 {
+    margin-left: 8%;
+    color: blue;
+    font-size: 35px;
+}
+
+.introduce .in {
+    color: #dc62ec;
+}
+
+.introduce .big {
+    word-spacing: 3px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduce .in2 {
+    color: #dc62ec;
+}
+
+.introduce .nd {
+    text-align: center;
+}
+
+.button-contact button {
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    background-color: white solid;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: .3s ease 0s;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.button-contact button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.posts h2 {
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: .3s ease 0s;
+}
+
+.posts h2:hover {
+    color: darkgreen;
+}
+
+.posts a {
+    text-decoration: none;
+}
+
+.posts {
+    background-color: rgb(36, 34, 34);
+}
+
+.all {
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-6 {
+    display: flex;
+}
+
+.post-1, .post-2, .post-3, .post-3, .post-4, .post-5 {
+    display: flex;
+}
+
+.all p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: .3s ease 0s;
+    cursor: pointer;
+}
+
+.all img {
+    transition: .3s ease 0s;
+}
+
+.all img:hover {
+    border-radius: 20px;
+}
+
+.all a{
+    text-decoration: none;
+}
+
+.all p:hover{
+    color: darkgreen;
+}
+
+.all .poststhree-1 a:hover, .poststhree-2 a:hover, .poststhree-3 a:hover {
+    color: rgb(125, 212, 37);
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logoandtext">
+            <a href="index.html"><img src="assets/logo.png" class="logo" height="100px" width="100px"alt="LOGO"></a>
+            <p class="developer">Developer</p>
+            <p class="zisan">Zisan</p>
+        </div>       
+
+            <nav>
+                <ul class="nav-links">
+                    <b><li><a href="#" target="_blank">Home</a></li>
+                    <li><a href="index.html" target="_blank">Services</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                    <li><a href="help.html" target="_blank">Help</a></li>
+                    <li><a class="active" href="#">Articles</a></li>
+                    <li><a href="team.html" target="_blank">Team</a></li></b>
+                </ul>
+            </nav>
+    </header>
+<br>
+<br>
+<br>
+        <div class="introduce">
+            <h1 class="in">** How To Make An Application Without Coding ?</h1>
+            <p class="first">Is it possible to make an app without coding ?</p>
+            <p>And the answer is  :  Yes But How ??</p>
+            <p>We can make many types of application like barbar, shopping, earning and many more. But how to make these types of professional application freeeeeee.</p>
+            <p class="big">To make professional applications free, there are many websites like kodular, app inventor, appsgyser and many more. But all of these are not professional. Only one website is professional to make an app. And it's kodular. Kodular is a most expensive website to create apps without coding. With coding, Android Studio is the best. But it's needed to know coding or programming. If you really wan to make apps then select kodular. All kinds of services are available on that website. Some of things aren't available. Don't worry, the extension importer is available. You can add many extensions and you can use them with block coding. For making apps on kodualr you need to learn block coding. don't be so worry, it's very simple. When you will learn it then you'll feel so easy. It's reaaly easy. You can make beautiful application by that. And after all you will have your own made application and that's nice !!!</p>
+            <h3>**Here is the home page of Kodular :</h3>
+        <div class="img">
+            <img class="img" height="500px" width="auto" src="assets/kodular.png" alt="Kodular">
+            <div class="arrow">
+                <img height="100px" width="100px" src="assets/arrow.png" alt="arrow">
+                <p class="kodularweb">Go to <a href="https://www.kodular.io" target="_blank">Kodular.io</p></a>
+            </div>
+            
+        </div>
+            
+            <h1 class="in2">** And the other question is how I will make an app on that website without learning?</h1>
+            <p class="nd">To make application on that platform you will need to learn that simple coding and you can learn it from me. Contact Us to Learn !!</p>
+        </div>
+<br>
+<br>
+<br>
+                <div class="button-contact">
+                    <a href="contact.html"><button>Contact Now !</button></a>
+                </div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div class="posts">
+    <a target="_blank" href="articles.html"><h2>Popular Articles</h2></a>
+</div>
+
+<div class="all">
+<div class="poststhree-1">
+    <a target="_blank" href="post_1.html"><div class="post-1">
+        <img height="100px" width="150px" src="assets/whyiwilllearncoding.png" alt="whyiwilllearncoding">
+        <p>Why I will learn coding?</p>
+    </div></a>
+<br>
+<a target="_blank" href="post_2.html"><div class="post-2">
+        <img height="100px" width="150px" src="assets/howtomakeanapp.png" alt="howtomakeanapp">
+        <p>How to make an app without coding?</p>
+    </div></a>
+<br>    
+<a target="_blank" href="post_3.html"><div class="post-3">
+        <img height="100px" width="150px" src="assets/howtomakeagame.png" alt="howtomakeagame">
+        <p>How I can make a game without coding?</p>
+    </div></a>
+</div>
+
+
+
+<div class="poststhree-2">
+    <a target="_blank" href="post_4.html"><div class="post-4">
+        <img height="100px" width="150px" src="assets/howtoidographicsdesign.png" alt="howtoidographicsdesign">
+        <p>How to I do free graphics design?</p>
+    </div></a>
+<br>
+<a target="_blank" href="post_5.html"><div class="post-5">
+        <img height="100px" width="150px" src="assets/howtoimakeawebsite.png" alt="howtoimakeawebsite">
+        <p>How to make a website without coding?</p>
+    </div></a>
+<br>    
+<a target="_blank" href="post_6.html"><div class="post-6">
+        <img height="100px" width="150px" src="assets/howtoearnmoneyeasily.png" alt="howtoearnmoneyeasily">
+        <p>How to earn money easily?</p>
+    </div></a>
+</div>
+</div>
+
+
+
+
+
+
+
+
+        <div class="copyright">
+            <footer>Copyright &copy; 2021 || All Rights Reserved || <a href="https://www.facebook.com/foysalmahmud.zisan" target="_blank"><b>Developed By Foysal Mahmud Zisan (Developer)</b></a>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+  
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding: 0 20px;
+    margin-top: 4px;
+    margin-left: 10%;
+}
+
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin: 0 15px;
+    transition: all .3s ease 0s;
+    color: rgb(241, 11, 99);
+}
+
+.nav-links li a:hover {
+    color: rgb(20, 211, 170);
+}
+
+.logoandtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.developer {
+    font-weight: bold;
+    color: rgb(112, 4, 58);
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    
+}
+
+
+.zisan {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(154, 1, 255);
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  body {
+    font-family: "Montserrat";
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+
+  nav ul li .active {
+    color: blueviolet;
+}
+
+  
+  section {
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+  }
+  button[type="submit"]:hover {
+    background-color: rgb(214, 226, 236);
+  }
+  #status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  #status.success {
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+  }
+  #status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+  }
+  @keyframes status {
+    0% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    90% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    100% {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  .posts h2 {
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: .3s ease 0s;
+}
+
+.posts h2:hover {
+    color: darkgreen;
+}
+
+.posts a {
+    text-decoration: none;
+}
+
+.posts {
+    background-color: rgb(36, 34, 34);
+}
+
+.all {
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-6 {
+    display: flex;
+}
+
+.post-1, .post-2, .post-3, .post-3, .post-4, .post-5 {
+    display: flex;
+}
+
+.all p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: .3s ease 0s;
+    cursor: pointer;
+}
+
+.all img {
+    transition: .3s ease 0s;
+}
+
+.all img:hover {
+    border-radius: 20px;
+}
+
+.all a{
+    text-decoration: none;
+}
+
+.all p:hover{
+    color: darkgreen;
+}
+
+.all .poststhree-1 a:hover, .poststhree-2 a:hover, .poststhree-3 a:hover {
+    color: rgb(125, 212, 37);
+}
+
+  .copyright {
+    background-color: rgb(36, 34, 34);
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.copyright footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright footer {
+    padding-top: 50px;
+}
+  
+
+
+
+

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="desktop-size">
+    <link rel="shortcut_icon" type="image/png" href="assets/logo.png">
+    <link rel="shortcut icon" type="image/png" href="assets/logo.png">
+    <title>How to make a website without coding ?</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding: 0 20px;
+    margin-top: 4px;
+    margin-left: 10%;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin: 0 15px;
+    transition: all .3s ease 0s;
+    color: rgb(241, 11, 99);
+}
+
+.nav-links li a:hover {
+    color: rgb(20, 211, 170);
+}
+
+.logoandtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.developer {
+    font-weight: bold;
+    color: rgb(112, 4, 58);
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    
+}
+
+.zisan {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(154, 1, 255);
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+.first {
+    text-align: center;
+    color: rgb(223, 46, 223);
+    margin-top: 20px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(226, 27, 226);
+}
+
+.paragraph {
+    text-align: justify;
+    margin: 2% 8% 2% 8%;
+    font-size: 18px;
+}
+
+.in-1, .in-2 {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.button-contact button {
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    background-color: white solid;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: .3s ease 0s;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.button-contact button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.copyright {
+    background-color: rgb(36, 34, 34);
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.copyright footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright footer {
+    padding-top: 50px;
+}
+
+.posts h2 {
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: .3s ease 0s;
+}
+
+.posts h2:hover {
+    color: darkgreen;
+}
+
+.posts a {
+    text-decoration: none;
+}
+
+.posts {
+    background-color: rgb(36, 34, 34);
+}
+
+.all {
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-6 {
+    display: flex;
+}
+
+.post-1, .post-2, .post-3, .post-3, .post-4, .post-5 {
+    display: flex;
+}
+
+.all p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: .3s ease 0s;
+    cursor: pointer;
+}
+
+.all img {
+    transition: .3s ease 0s;
+}
+
+.all img:hover {
+    border-radius: 20px;
+}
+
+.all a{
+    text-decoration: none;
+}
+
+.all p:hover{
+    color: darkgreen;
+}
+
+.all .poststhree-1 a:hover, .poststhree-2 a:hover, .poststhree-3 a:hover {
+    color: rgb(125, 212, 37);
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logoandtext">
+            <a href="index.html"><img src="assets/logo.png" class="logo" height="100px" width="100px"alt="Logo"></a>
+            <p class="developer">Developer</p>
+            <p class="zisan">Zisan</p>
+        </div>       
+
+            <nav>
+                <ul class="nav-links">
+                    <b><li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#sec-1">Services</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                    <li><a href="help.html" target="_blank">Help</a></li>
+                    <li><a href="articles.html" target="_blank">Articles</a></li>
+                    <li><a href="team.html" target="_blank">team</a></li></b>
+                </ul>
+            </nav>
+    </header>
+    <h1 class="first">How to make a website without coding ?</h1>
+    <p class="paragraph">To make a website without coding. Yes, it's possible. You can make it using a third party website and it's (wix.xom). Wix is a website where you can make a website only drag and drop. Just drag pictures and drop into your web page and it's automatically added. Is it hard ? No, it's not hard. It's very easy and you can select your liked theam and also you can add that to your webpage !!! Many Famous websites are available to make a website. But a professional developer never been develop a website using these third party websites. So, I won't recommended you to make your official website using third party websites. I'll recommend you to make your own website using programming. But how you can make a website with coding ? Please listen, without knowledge you can't make a website, if you want to make a website with coding then you can contact us. I'll teach you coding and then you will become a professional developer, programmer etc. Anyway, Now this time you can make a website with coding using a website and it's w3shool.com. This website helps you to know the coding. We need a few knowledge to coding. So, I recommended you to contact us and learn coding. It's best for you.</p>
+    <div class="main">
+        <div class="in-1">
+            <img height="500px" width="800px" src="assets/wix.png" alt="Wix">
+<br>           
+<br>           
+            <p>WIX Homepage</p>
+        </div>
+<br>
+        <div class="in-2">
+            <img height="500px" width="800px" src="assets/w3shools.png" alt="W3shools">
+<br>           
+<br>           
+            <p>W3schools Homepage</p>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+            <div class="button-contact">
+                <a href="contact.html"><button>Contact Now !</button></a>
+            </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="posts">
+    <a target="_blank" href="articles.html"><h2>Popular Articles</h2></a>
+</div>
+
+<div class="all">
+<div class="poststhree-1">
+    <a target="_blank" href="post_1.html"><div class="post-1">
+        <img height="100px" width="150px" src="assets/whyiwilllearncoding.png" alt="whyiwilllearncoding">
+        <p>Why I will learn coding?</p>
+    </div></a>
+<br>
+<a target="_blank" href="post_2.html"><div class="post-2">
+        <img height="100px" width="150px" src="assets/howtomakeanapp.png" alt="howtomakeanapp">
+        <p>How to make an app without coding?</p>
+    </div></a>
+<br>    
+<a target="_blank" href="post_3.html"><div class="post-3">
+        <img height="100px" width="150px" src="assets/howtomakeagame.png" alt="howtomakeagame">
+        <p>How I can make a game without coding?</p>
+    </div></a>
+</div>
+
+
+
+<div class="poststhree-2">
+    <a target="_blank" href="post_4.html"><div class="post-4">
+        <img height="100px" width="150px" src="assets/howtoidographicsdesign.png" alt="howtoidographicsdesign">
+        <p>How to I do free graphics design?</p>
+    </div></a>
+<br>
+<a target="_blank" href="post_5.html"><div class="post-5">
+        <img height="100px" width="150px" src="assets/howtoimakeawebsite.png" alt="howtoimakeawebsite">
+        <p>How to make a website without coding?</p>
+    </div></a>
+<br>    
+<a target="_blank" href="post_6.html"><div class="post-6">
+        <img height="100px" width="150px" src="assets/howtoearnmoneyeasily.png" alt="howtoearnmoneyeasily">
+        <p>How to earn money easily?</p>
+    </div></a>
+</div>
+</div>
+
+            <div class="copyright">
+                <footer>Copyright &copy; 2021 || All Rights Reserved || <a href="https://www.facebook.com/foysalmahmud.zisan" target="_blank"><b>Developed By Foysal Mahmud Zisan (Developer)</b></a>
+            </div>
+
+</body>
+</html>

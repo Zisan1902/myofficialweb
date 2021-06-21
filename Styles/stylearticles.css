@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding: 0 20px;
+    margin-top: 4px;
+    margin-left: 10%;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li .active {
+    color: blueviolet;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin: 0 15px;
+    transition: all .3s ease 0s;
+    color: rgb(241, 11, 99);
+}
+
+.nav-links li a:hover {
+    color: rgb(20, 211, 170);
+}
+
+.logoandtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.developer {
+    font-weight: bold;
+    color: rgb(112, 4, 58);
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    
+}
+
+.zisan {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(154, 1, 255);
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(156, 90, 218);
+    margin-bottom: 8%;
+}
+
+.main-1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 8%;
+}
+
+.main-2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 8%;
+}
+
+.main-3 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 8%;
+}
+
+.main-1 p, .main-2 p, .main-3 p {
+    margin-top: 20px;
+}
+
+.main-1 a, .main-2 a, .main-3 a {
+    text-decoration: none;
+    color: black;
+    transition: .3s ease 0s;
+}
+
+.main-1 a:hover, .main-2 a:hover, .main-3 a:hover {
+    color: rgb(104, 102, 102);
+    font-size: 20px;
+}
+    
+
+.main-1 img, .main-2 img, .main-3 img {
+    border-radius: 40px;
+    transition: .3s ease 0s;
+}
+
+.main-1 img:hover, .main-2 img:hover, .main-3 img:hover {
+    border-radius: 60px;
+}
+
+.copyright {
+    background-color: rgb(36, 34, 34);
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.copyright button {
+    text-align: center;
+    margin-left: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(36, 34, 34);
+    color: white;
+    cursor: pointer;
+}
+
+.copyright footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright footer {
+    padding-top: 50px;
+}
+
+
